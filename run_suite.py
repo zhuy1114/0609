@@ -8,7 +8,7 @@ from app import BASE_DIR
 suite = unittest.TestLoader().discover(BASE_DIR + "/script", pattern="test*.py")
 
 # 生成报告名字
-file_name = "/report-{}.html".format(time.strftime("%Y%m%d%H%M%S"))
+file_name = "/report.html"
 
 # 执行报告
 BeautifulReport(suite).report(filename=file_name, description="By_myself ->tpshop注册登录引用参数化",
