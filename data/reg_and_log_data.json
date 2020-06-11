@@ -1,0 +1,38 @@
+[
+  {
+    "request_body": {
+      "username": "15100000001",
+      "verify_code": "8888",
+      "password": "123456",
+      "password2": "123456"
+    },
+    "http_code": 200,
+    "status": 1,
+    "reg_msg": "注册成功",
+    "log_msg": "登陆成功"
+  },
+  {
+    "request_body": {
+      "username": "15100000002",
+      "verify_code": "8888",
+      "password": "123456",
+      "password2": "123456"
+    },
+    "http_code": 200,
+    "status": 1,
+    "reg_msg": "注册成功",
+    "log_msg": "登陆成功"
+  },
+  {
+    "request_body": {
+      "username": "15100000003",
+      "verify_code": "8888",
+      "password": "123456",
+      "password2": "123456"
+    },
+    "http_code": 200,
+    "status": 1,
+    "reg_msg": "注册成功",
+    "log_msg": "登陆成功"
+  }
+]
